@@ -1,0 +1,13 @@
+###LOF###
+# features mode: count_only
+# model params:
+	contamination >>> 0.01
+	n_neighbors >>> 150
+
+###isolation_forest###
+# features mode: count_only
+# model params:
+	contamination >>> 0.01
+	max_samples >>> 256
+	n_estimators >>> 100
+
